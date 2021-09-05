@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon main.js",
-	"build": "tsc && node dist/main.js"
+    "start": "npx nodemon main.ts",
+    "build": "tsc && node dist/main.js"
   },
   "keywords": [],
   "author": "",
