@@ -1,0 +1,26 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+		"indent": ["error", "tab"],
+		"no-compare-neg-zero":"error",
+		"no-irregular-whitespace":"error",
+		"no-unreachable":"error",
+		"consistent-return":"error",
+		"no-alert":"error",
+		"no-else-return":"error",
+		"no-unused-vars": "error",
+		"no-use-before-define": "error",
+		"no-var":"error"
+    }
+}
